@@ -43,6 +43,28 @@
 			<span class="dot" onclick="currentSlide(2)"></span>
 			<span class="dot" onclick="currentSlide(3)"></span>
 		</div> 
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("dot");
+		for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";  
+		}
+		slideIndex++;
+		if (slideIndex > slides.length) {slideIndex = 1}    
+		for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex-1].style.display = "block";  
+		dots[slideIndex-1].className += " active";
+		setTimeout(showSlides, 5000); // Change image every 2 seconds
+		}
+	</script>
+</div>
 		
 	<p style="align:justify">Hi! I'm Rio Jessa Mae N. Florida and welcome to my site.20 years of age and currently taking up Information Technology at the University of Southeastern Philippines.
 							So basically, I'm just an ordinary student with big dreams.I'm a lovable daughter, a caring friend and a not so good sister. I love being loved, as what other people want too.
