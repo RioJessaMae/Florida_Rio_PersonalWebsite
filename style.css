@@ -32,6 +32,47 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+* {box-sizing:border-box}
+
+/* Slideshow container */
+div.slideshow-container {
+  max-width: 300px;
+  position: relative;
+  left: 10px;
+  top: 0px;
+  float: top;
+}
+
+div.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+div.prev, div.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+div.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+div.prev:hover, div.next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
 
 header{
 
