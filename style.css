@@ -32,6 +32,7 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+	
 }
 
 header{
@@ -82,6 +83,15 @@ p{
 	width: 600px;
 	top: 40px;
 	text-align:justify;
+}
+div.p{
+	margin-left: 350px;
+	color: #191919;
+	font-size: 25px;
+	width: 600px;
+	top: 40px;
+	text-align:justify;
+	font-weight: bold;
 }
 * {box-sizing:border-box}
 
@@ -176,6 +186,7 @@ ul {
 	position: sticky;
 	position: sticky;
     top: 0;
+	
 	
 }
 
